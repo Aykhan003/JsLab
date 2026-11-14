@@ -518,3 +518,14 @@
 //     return increasing ? newArr : "The array is not increasing.";
 // }
 // console.log("The increasing array is: " + JSON.stringify(increasingArray([1, 2, 3, 4, 5])));
+
+// let str = "Hello World Aykhan";
+// let count = 0;
+// for (let i = 0; i < str.length; i++) {
+//     if (str[i] === 'o') {
+//         count++;
+//     }
+// }
+// console.log("The number of 'o' in the string is: " + count);
+
+//#endregion
