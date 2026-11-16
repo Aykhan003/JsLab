@@ -529,3 +529,50 @@
 // console.log("The number of 'o' in the string is: " + count);
 
 //#endregion
+
+//#region HardTasks2
+
+// class CustomMatch {
+//     constructor(a) {
+//         this.a = a;
+//     }
+
+//     plus(b) {
+//         this.a = this.a + b;
+//         return this;
+//     }
+
+//     minus(b) {
+//         this.a = this.a - b;
+//         return this;
+//     }
+
+//     multiply(b) {
+//         this.a = this.a * b;
+//         return this;
+//     }
+
+//     divide(b) {
+//         if (b === 0) {
+//             return "Cannot divide by zero";
+//         }
+//         this.a = this.a / b;
+//         return this;
+//     }
+
+// }
+// var result = new CustomMatch(50).plus(6).minus(30).multiply(3).divide(2);
+// console.log(result);
+
+// let arr = [20, 10, 30, 22, 40, 65];
+// console.log(arr.sort((a, b) => a - b));
+
+// function getWordLengths(str) {
+//     let words = str.split(" ");
+//     let lengths = [];
+//     for (let i = 0; i < words.length; i++) {
+//         lengths.push(words[i].length);
+//     }
+//     return lengths;
+// }
+// console.log(getWordLengths("I Love JavaScript"));
