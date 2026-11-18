@@ -529,7 +529,6 @@
 // console.log("The number of 'o' in the string is: " + count);
 
 //#endregion
-
 //#region HardTasks2
 
 // class CustomMatch {
@@ -576,3 +575,83 @@
 //     return lengths;
 // }
 // console.log(getWordLengths("I Love JavaScript"));
+
+// const universityGroup = {
+//     constructor(id, name, age, grade) {
+//         this.id = id;
+//         this.name = name;
+//         this.age = age;
+//         this.grade = grade;
+//     },
+//     groupName: "P320",
+//     students: []
+// }
+
+// function generateRandomNumbers(min, max) {
+//     if (min > max) {
+//         return "Invalid range";
+//     }
+//     let randomNumbers = [];
+//     for (let i = 0; i < 10; i++) {
+//         let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+//         randomNumbers.push(randomNumber);
+//     }
+//     return randomNumbers;
+// }
+// console.log(generateRandomNumbers(0, 100));
+// function roundNumber(num, decimalPlaces) {
+//     if (decimalPlaces < 0) {
+//         return "Decimal places cannot be negative";
+//     }
+//     let round = Math.round(num)
+//     let floor = Math.floor(num)
+//     let ceil = Math.ceil(num)
+//     let fixed = num.toFixed(decimalPlaces)
+//     let result;
+//     if (num === 0)
+//         result = "The number is zero";
+//     else if (num > 0)
+//         result = "The number is positive";
+//     else
+//         result = "The number is negative";
+//     return {
+//         round: round,
+//         floor: floor,
+//         ceil: ceil,
+//         fixed: fixed
+//     }
+// }
+// console.log(roundNumber(-5.6789, 2));
+
+// function calculateGeometry(circle, rectangle, triangle) {
+//     let circleArea = Math.PI * Math.pow(circle.radius, 2);
+//     let rectangleArea = rectangle.width * rectangle.height;
+//     let triangleArea = (triangle.base * triangle.height) / 2;
+//     return {
+//         circle: circleArea,
+//         rectangle: rectangleArea,
+//         triangle: triangleArea
+//     };
+// }
+
+// function calculateDistance(point1, point2) {
+//     let distance = Math.sqrt(Math.pow(point2.x - point1.x, 2) + Math.pow(point2.y - point1.y, 2));
+//     return distance;
+// }
+
+// function customBubbleSort(arr) {
+//     let n = arr.length;
+//     for (let i = 0; i < n - 1; i++) {
+//         for (let j = 0; j < n - i - 1; j++) {
+//             if (arr[j] > arr[j + 1]) {
+//                 let temp = arr[j];
+//                 arr[j] = arr[j + 1];
+//                 arr[j + 1] = temp;
+//             }
+//         }
+//     }
+//     return arr;
+// }
+// console.log(customBubbleSort([64, 34, 25, 12, 22, 11, 90]));
+
+// #endregion
